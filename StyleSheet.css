@@ -1,0 +1,110 @@
+*{
+  font-family: sans-serif ;
+  margin: 0;
+  padding: 0; 
+}
+body{
+  background-color: rgb(230, 230, 230);
+}
+
+.container{
+  min-height: 100vh;    
+  display: flex;
+  flex-direction: column;
+}
+
+.Content{
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.OnImage{
+  align-items: center;
+  font-style: bold;
+  position: absolute;
+  top: 50px;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+a {
+  text-align: center;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#333;
+  color: white;
+  text-align: center;
+}
+
+.Bottom-Flex-Boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.Bottom-Flex-Boxes > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.FooterText {
+  font-size: 12px;
+  font-style: bold;
+  list-style-type: none;
+}
+
+#adress {
+  margin-left: 10%;
+  text-align: left;
+  font-style: bold;
+  display: flex;
+  padding-bottom: 40px;
+  
+}
+
+#MainImage{
+  object-fit: contain;
+  position: relative;
+  display: inline-block;
+}
+
